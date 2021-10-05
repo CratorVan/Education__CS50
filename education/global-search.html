@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Global search</title>
+</head>
+<body>
+    <div class="wraper">
+        <div class="container">
+            <header class="header ">
+                <div class="header__container">
+                    <div class="header__item">
+                        <a href="index.html" class="header__link btn"> Головна </a>
+                    </div>
+                </div> 
+                <div class="header__border-bottom"></div>
+            </header>
+            <main class="main">
+                <form action="https://www.google.com/advanced_search" class="form form-global">
+                    <div class="form-input">
+                        <div class="form__container">
+                            <p class="form__text">усі ці слова: </p>
+                            <input type="text" placeholder="All this words:" name="as_q" class="form__input" >
+                        </div>
+                        <div class="form__container">
+                            <p class="form__text">точне слово або фразу: </p>
+                            <input type="text" placeholder="exact word or phrase:" name="as_epq"  class="form__input">
+                        </div>
+                        <div class="form__container">
+                            <p class="form__text">будь-яке з цих слів: </p>
+                            <input type="text" placeholder="any of these words:" name="as_oq"  class="form__input"> 
+                        </div>
+                        <div class="form__container">
+                            <p class="form__text">жодне з цих слів: </p>
+                            <input type="text" placeholder="none of these words:" name="as_eq" class="form__input" >   
+                        </div>
+                    </div>
+                   
+                    <div class="form__btn">
+                        <input type="submit" value="Global  Search" class="btn btn-global"> 
+                    </div>
+            </main>
+        </div>
+    </div>
+</body>
+</html>
